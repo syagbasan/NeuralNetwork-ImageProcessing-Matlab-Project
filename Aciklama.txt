@@ -1,0 +1,8 @@
+Öncelikle network'ü eðitmek istediðiniz verilerinizi matris olarak oluþturduktan sonra Input Data kýsmana ekliyoruz,
+daha sonra Target Data Kýsmýna da bizim proje de 15 kiþinin bilgileri referans alýndýðý için 15 tane
+[ 001 001 001 010 010 010 011 011 011 100 100 100 101 101 101 ] þeklinde bir hedef belirlemiþiz bunun mantýðý nedir
+bilmiyorum hocam ama nn_input(4x15) olduðu için targetinde (1x15) olmasý gerekiyor sanýrým.
+Bu aþamadan sonra network'ü oluþturup eðitmek kalýyor. Eðitim tamamlandýktan sonra Output Data kýsmýnda(1x15) lik outputumuz oluþur.
+Eðer bize ayýrt edici nitelikte bir sonuç veriyosa network kullanýlabilir.
+
+nn_input ve nn_target mat uzantýlý dosyalarý workspace e sürekleyip attýktan sonra içeriðini inceleyebilirsiniz.
